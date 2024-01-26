@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background-color: green;
+}
+
+.btn {
+  padding: 15px;
+  background-color: purple;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+  display: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+/*button:active,
+button:focus {
+  outline: none;
+}*/
+
+#card-area {
+  margin-top: 80px;
+}
+
+#card-area > img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /*transform: rotate(45deg);*/
+}
